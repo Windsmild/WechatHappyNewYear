@@ -1,2 +1,2 @@
 # WechatHappyNewYear
-微信自动拜年
+用itchat实现微信自动拜年和发祝福语,可以全好友全群组群发
