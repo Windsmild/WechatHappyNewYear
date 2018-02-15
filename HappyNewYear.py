@@ -32,7 +32,7 @@ for group in groupList:
     okWord = u'🎉🎉[红包][红包][小狗][小狗]亲爱的群友们，大帅比给你带来了新年祝福~  ' + randomBless() + "\nMade by WindAI[红包][红包]🎉🎉"
     print(okWord, group['UserName'])
     itchat.send(okWord, group['UserName'])
-    time.sleep(10)
+    time.sleep(1)
 
 friendList = itchat.get_friends(update=True)[1:]
 
@@ -44,5 +44,5 @@ for friend in friendList:
           friend['UserName'])
     itchat.send(okWord % (friend['DisplayName'] or friend['NickName']), friend['UserName'])
     # print(friend['DisplayName'], friend['NickName'])
-    time.sleep(.5)
+    time.sleep(1)
 # itchat.send(u'测试消息发送 WindAI', users[0]['UserName'])
