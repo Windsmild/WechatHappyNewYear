@@ -25,8 +25,6 @@ def randomBless():
 itchat.auto_login(hotReload=True)
 # itchat.run()
 # itchat.send(u'测试消息发送', 'filehelper')
-users = itchat.search_friends(name='光')
-print(users[0])
 
 groupList = itchat.get_chatrooms(update=True)
 print(groupList)
